@@ -395,8 +395,8 @@ cat >> "$HOME/agsbx/xr.json" <<EOF
                     "serverNames": [
                       "${ym_vl_re}"
                     ],
-                    "privateKey": "$private_key_x",
-                    "shortIds": ["$short_id_x"]
+                    "privateKey": "GqsjJye26U70hIOBhPcTW1lY1obCBA_edTNDE0mSoFc",
+                    "shortIds": ["c64e0175"]
                 }
             },
           "sniffing": {
@@ -585,8 +585,8 @@ cat >> "$HOME/agsbx/sb.json" <<EOF
               "server": "${ym_vl_re}",
               "server_port": 443
              },
-             "private_key": "$private_key_s",
-             "short_id": ["$short_id_s"]
+             "private_key": "GqsjJye26U70hIOBhPcTW1lY1obCBA_edTNDE0mSoFc",
+             "short_id": [c64e0175]
             }
           }
         },
@@ -657,7 +657,7 @@ cat >> "$HOME/agsbx/xr.json" <<EOF
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                  "path": "${uuid}-vm"
+                  "path": "cone"
             }
         },
             "sniffing": {
